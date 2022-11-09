@@ -1,0 +1,33 @@
+.footerBlock {
+    /*height: 30vh;*/
+    background-color: #61dafb;
+    padding: 50px 0;
+}
+
+.footerContainer {
+    flex-direction: column;
+
+    flex-wrap: nowrap;
+
+
+}
+
+.title {
+    display: block;
+}
+
+.links{
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link {
+    background-color: #5a6264;
+    width: 60px;
+    height: 60px;
+}
+
+.description{
+
+}
