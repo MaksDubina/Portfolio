@@ -1,0 +1,35 @@
+@import '../common/styles/sass/variables.scss';
+
+.skillsBlock {
+  min-height: 100vh;
+  background-color: $bgColor;
+
+  .skillsContainer {
+    align-items: center;
+    flex-direction: column;
+
+
+    .title {
+      color: $titleColor;
+      text-transform: uppercase;
+      //h2 stile
+      font-size: 32px;
+      font-family: 'Montserrat',sans-serif;
+      font-weight: 700;
+    }
+
+    .skills {
+      gap: 35px;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+
+    }
+  }
+}
+
+
+
+
+

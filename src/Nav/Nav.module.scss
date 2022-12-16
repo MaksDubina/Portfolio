@@ -1,0 +1,19 @@
+@import '../common/styles/sass/variables.scss';
+
+.nav {
+    width: 650px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    a {
+        outline: none;
+        cursor: pointer;
+        text-decoration: none;
+        color: $textColor;
+        mark{
+            color: $selectionColor;
+            background: transparent;
+        }
+    }
+}
+

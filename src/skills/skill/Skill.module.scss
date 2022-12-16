@@ -1,0 +1,35 @@
+@import '../../common/styles/sass/variables.scss';
+
+.skill {
+  width: 300px;
+  height: 200px;
+  border: 1px solid rgb(255 255 255/var(--tw-border-opacity));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 0.5rem;
+  --tw-border-opacity: 0.1;
+
+  background-color: rgb(255 255 255/var(--tw-bg-opacity));
+  --tw-bg-opacity: 0.05;
+
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+
+.icon {
+  margin-top: 10%;
+  height: 1220px;
+  width: 120px;
+  background-color: #6c7479;
+  border-radius: 100%;
+}
+
+.title {
+  color: $textColor;
+}
+
+.description {
+
+}

@@ -1,0 +1,53 @@
+@import '../../common/styles/sass/variables.scss';
+
+.workBlock {
+  border-radius: 0.5rem;
+  border: 1px solid rgb(255 255 255/var(--tw-border-opacity));
+  --tw-border-opacity: 0.1;
+
+  background-color: $bgCard;
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+  backdrop-filter: var(--tw-backdrop-blur);
+  --tw-backdrop-blur: blur(12px);
+
+
+  .imageBlock {
+    width: 300px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .button {
+      //background-color: #5a6264;
+      //border: 2px solid;
+      //padding: 6px;
+      color: $textColor;
+    }
+
+  }
+
+  .descriptionContainer {
+    box-sizing: border-box;
+    width: 100%;
+    height: 20%;
+    color: $textColor;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+
+    .title {
+      margin: 0 0 10px 0;
+    }
+
+    .description {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: flex-start;
+    }
+  }
+}
+
+

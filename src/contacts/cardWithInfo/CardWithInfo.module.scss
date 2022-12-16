@@ -1,0 +1,28 @@
+@import '../../common/styles/sass/variables.scss';
+
+.container {
+  border-radius: 0.5rem;
+  border: 1px solid rgb(255 255 255/var(--tw-border-opacity));
+  --tw-border-opacity: 0.1;
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 32 51/var(--tw-bg-opacity));
+  --tw-backdrop-blur: blur(12px);
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+  backdrop-filter: var(--tw-backdrop-blur);
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+
+  .image {
+    width: 64px;
+    height: 64px;
+    background-color: #5a6264;
+    border-radius: 50%;
+  }
+
+  .info {
+    color: $textColor;
+  }
+}
